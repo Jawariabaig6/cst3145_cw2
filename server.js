@@ -18,6 +18,8 @@ MongoClient.connect("mongodb+srv://JawairiaBaig:jawairiamongo@cluster0.wwyyyvx.m
   }
 );
 
+// initial
+
 // Intializing the the first route
 app.get("/", (req, res, next) => {
   res.send("Select a collection, e.g, /collection/massages");
